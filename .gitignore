@@ -1,0 +1,29 @@
+# Generated results (disk-only, not for version control)
+results/
+
+# Virtual environment
+venv/
+
+# Data & large files
+data/
+*.tif
+*.pt
+*.npy
+
+# Output / scratch
+s3_exploration_results.txt
+2509.14051v2.pdf
+results_*.png
+
+# Tooling
+archive/
+.claude/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+ai_context.md
